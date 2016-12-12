@@ -1,0 +1,10 @@
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\obj\Debug\ClassLibraryDZ3.csprojResolveAssemblyReference.cache
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\bin\Debug\ToDoSqlRepo.dll.config
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\bin\Debug\ToDoSqlRepo.dll
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\bin\Debug\ToDoSqlRepo.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\bin\Debug\EntityFramework.dll
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\bin\Debug\EntityFramework.xml
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\obj\Debug\ToDoSqlRepo.dll
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\ToDoSqlRepo\ToDoSqlRepo\obj\Debug\ToDoSqlRepo.pdb

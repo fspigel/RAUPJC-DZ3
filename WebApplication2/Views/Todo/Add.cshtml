@@ -1,0 +1,24 @@
+﻿@model AddTodoViewModel
+@{
+    ViewData["Title"] = "Add new";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add item in todo list</title>
+</head>
+<body>
+    <div>
+        <h1>Add new item in todo list!</h1>
+        <form asp-action="Add" method="post">
+            <br />
+            <input asp-for="Text" /> <span asp-validation-for="Text"></span>
+            <input type="submit" value="Save" />
+        </form>
+        <br /><br />
+        <a asp-controller="Todo" asp-action="Index">
+            <p1 style="font-size: 20px; color:green">Return to front page</p1>
+        </a>
+    </div>
+</body>
+</html>

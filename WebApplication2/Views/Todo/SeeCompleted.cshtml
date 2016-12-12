@@ -1,0 +1,40 @@
+﻿@using System.Threading.Tasks
+@using ClassLibraryDZ3
+@model IEnumerable<TodoItem>
+@{
+    ViewData["Title"] = "Completed";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+    <div>
+        <h1>Completed items on list</h1>
+        <br /><br />
+        @foreach (var todoItem in Model)
+        {
+            <p1 style="font-size: 21px"><b>@todoItem.Text</b></p1>
+            <br />
+            <p1 style="font-size: 17px">
+                Created: @todoItem.DateCreated
+                <br />Completed: @todoItem.DateCompleted
+            </p1>
+            <p1 style="font-size: 19px">
+                <br />
+                <a asp-controller="Todo" asp-action="Delete" asp-route-id="@todoItem.Id">
+                    Delete
+                </a>
+            </p1>
+            <br />
+        }
+        <br /><br />
+        <a asp-controller="Todo" asp-action="Index">
+            <p1 style="font-size: 20px; color:green">Return to front page</p1>
+        </a>
+    </div>
+</body>
+</html>
